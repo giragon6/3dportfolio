@@ -5,7 +5,7 @@
   "homepage": "https://giragon6.github.io/3dportfolio/",
   "type": "module",
   "scripts": {
-    "predeploy": "nom run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
