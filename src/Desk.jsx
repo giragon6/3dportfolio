@@ -8,7 +8,7 @@ import React, { useState, useRef } from 'react'
 import { useFrame } from '@react-three/fiber'
 import { Html, useGLTF } from '@react-three/drei'
 import Hero from './hero/Hero'
-import './index.css'
+import '../index.css'
 
 export function Desk({...props}) {
   const meshRef = useRef();
