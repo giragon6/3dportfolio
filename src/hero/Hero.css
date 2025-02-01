@@ -1,0 +1,126 @@
+/* General Style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .wrapper {
+    background-color: #008080;
+  }
+  
+  /* Desktop */
+  .desktop {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+  }
+  
+  .icon {
+    width: 80px;
+    text-align: center;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  .icon img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .icon p {
+    font-size: 12px;
+    color: white;
+  }
+  
+  /* Taskbar */
+  .taskbar {
+    background-color: #000080;
+    color: white;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .taskbar span {
+    margin-left: 10px;
+  }
+  
+  .taskbar-icons {
+    display: flex;
+    margin-right: 10px;
+  }
+  
+  .taskbar-icon {
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  /* Start Menu */
+  .start-menu {
+    position: fixed;
+    bottom: 50px;
+    left: 10px;
+    background-color: #c0c0c0;
+    border: 2px solid #808080;
+    display: block;
+  }
+  
+  .start-menu button {
+    background-color: #000080;
+    color: white;
+    border: none;
+    padding: 10px;
+  }
+  
+  .menu-content {
+    padding: 10px;
+  }
+  
+  .menu-content ul {
+    list-style-type: none;
+  }
+  
+  .menu-content li a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  /* Window Styles */
+  .window {
+    background-color: white;
+    border: 2px solid black;
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    display: block;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  }
+  
+  .window-header {
+    background-color: #000080;
+    color: white;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .window-header button {
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 18px;
+  }
+  
+  .window-content {
+    padding: 20px;
+  }
+  
